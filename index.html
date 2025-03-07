@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Figma Design</title>
+    
+     <style>
+      *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+#navbar{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    margin-top: 34px;
+    width: 100vw;
+}
+
+
+#navbar #logo{
+    margin-left: 60px;
+}
+#navbar #logo img{
+    height: 50px;
+}
+#navbar ul{
+    display: flex;
+    margin-top: 20px;
+    right: 175px;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 0px 13px;
+}
+#navbar .right{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    margin: 10px 15px;
+}
+#navbar .right #subject{
+    padding: 4px;
+    border: none;
+    background-color: rgb(247, 242, 242);
+    border-radius: 5px;
+}
+#navbar .right button{
+    padding: 6px 22px;
+    border: none;
+    background-color: rgb(13, 189, 130);
+    border-radius: 5px;
+    color: white;
+    margin-left: 12px;
+}
+/* images section */
+#images{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    margin-top: 34px;
+}
+#images .leftpics div{
+    margin: 5px 7px 7px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+#images .midpic img{
+    margin: 5px 7px 7px 0px;
+    display: flex;
+    height: 860px;
+}
+#images .rightpics img{
+    margin: 5px 7px 7px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+
+}
+
+/* section-left */
+#leftSide{
+    position: relative;
+    width: 30%;
+    left: 300px;
+}
+
+/* icons section */
+
+/* num1 */
+.num1{
+    position: relative;
+    top: 30px;
+}
+.num1 .p1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.num1 .layer1 img{
+   margin: 23px;
+}
+.num1 .layer2 img{
+    margin: 23px;
+}
+.num1 h3{
+    margin-bottom: 12px;
+    font-size: 27px;
+}
+.num1 .p2{
+    font-size: 18px;
+    font-family: monospace;   
+}
+
+                          /* num2 */
+.num2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+.num2 h3{
+    margin-bottom: 50px;
+    font-size: 27px;
+
+    
+}
+.num2 h4{
+    display: flex;  
+    margin-top: 12px;
+    font-size: 12px;
+    flex-wrap: nowrap;
+    
+}
+
+.num2 .layer {
+    display: flex;
+    position: relative;
+
+}
+.num2 .layer img{
+    width: 40px;
+
+}
+
+
+.num2 .layer .layer1{
+    margin-right: 155px;
+}
+.num2 .layer .layer2{
+    margin-right: 170px;
+    /* justify-content: space-between; */
+
+}
+.num2 .layer .layer3{
+    margin-right: 175px;
+}
+.num2 .layer .layer4{
+    margin-right: 170px;
+}
+
+/* num3 */
+.num3{
+    position: relative;
+    top: 30px;
+}
+
+.num3 h3{
+    margin-bottom: 12px;
+    font-size: 27px;
+}
+.num3 .firstdiv{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.num3 .firstdiv img{
+    width: 14px;
+    height: 9px;
+    margin-right: 20px;
+}
+.num3 .pz2{
+
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-right: 187px;
+}
+
+/* num4 */
+.num4{
+    position: relative;
+    top: 60px;
+}
+.num4 h3{
+    margin-bottom: 12px;
+    font-size: 27px;
+}
+.num4 .firstdiv{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.num4 .firstdiv img{
+    width: 14px;
+    height: 9px;
+    margin-right: 20px;
+}
+.num4 .boxes{
+    display: flex;
+    flex-direction: column;
+}
+
+.num4 .box1, .num4 .box2{
+    border: 1px solid rgb(124, 121, 121);
+    background-color: rgba(247, 247, 247, 0.637);
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 64%;
+    padding: 30px 18px;
+    border-radius: 8px;
+
+}
+
+.num4 .boxes .item1 p{
+    color: rgba(0, 0, 0, 0.349);
+    margin-bottom: 12px;
+}
+.num4 .boxes .item1 .h4{
+    color: rgb(59, 204, 161);
+    margin-top: 3px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.num4 .boxes .item2 p{
+    color: rgba(0, 0, 0, 0.774);
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+/* num5 */
+.number5{
+    position: relative;
+    top: 60px;
+}
+.number5 h3{
+    margin-bottom: 12px;
+    font-size: 27px;
+}
+.number5 .firstdiv{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.number5 .firstdiv img{
+    width: 14px;
+    height: 9px;
+    margin-right: 20px;
+}
+.number5 .allamounts{
+    display: flex;
+    flex-direction: column;
+
+}
+.number5 .allamounts .row{
+    position: relative;
+    display: flex;
+    /* border: 1px solid blue; */
+    width: 75%;
+    justify-content: space-between;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-family: monospace;
+}
+.number5 .allamounts .row .one{
+ 
+    margin-right: -18px;
+}
+.number5 .allamounts .row .two{
+    margin-left: 87px;
+ }
+ .number5 .allamounts .row .four{
+    margin-left: 79px;
+ }
+ .number5 .allamounts .row .mn{
+    margin-right: 30px;
+ }
+
+ /* num6 */
+.num6{
+    position: relative;
+    top: 60px;
+} 
+.num6 h3{
+    margin-bottom: 12px;
+    font-size: 27px;
+}
+.num6 .firstdiv{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.num6 .firstdiv img{
+    width: 14px;
+    height: 9px;
+    margin-right: 20px;
+}
+.num6 h4{
+    font-size: 20.7px;
+    margin-bottom: 19px;
+    color: rgba(0, 0, 0, 0.644);
+}
+.num6 .boxes{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.num6 .boxes .slash{
+    margin-right: 20px;
+    line-height: 3;
+}
+.num6 .boxes .p1{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.num6 .boxes .p2{
+    color: rgba(0, 0, 0, 0.705);
+    margin-top: 12px;
+}
+
+/* num7 */
+.num7{
+    position: relative;
+    top: 60px;
+}
+.num7 h3{
+    margin-bottom: 12px;
+    font-size: 27px;
+}
+.num7 .firstdiv{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.num7 .firstdiv img{
+    width: 14px;
+    height: 9px;
+    margin-right: 20px;
+}
+
+/* bottom pictures section */
+
+
+/* both section */
+#both{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/* Right side starts from here */
+#rightSide{
+    position: relative;
+    /* border: 1px solid black; */
+    width: 30%;
+    left: 400px;
+}
+.num-one{
+    /* border: 1px solid black; */
+    position: relative;
+    top: 30px;
+}
+.num-one .box1{
+    
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid rgba(170, 168, 168, 0.39);
+    background-color: rgba(247, 247, 247, 0.253);
+    padding: 20px;
+}
+.num-one .box1 .row{
+   margin-bottom: 10px;
+}
+.num-one .box1 .row1{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-bottom: 19px;
+
+}
+.num-one .box1 .row1 .p1{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.562);
+}
+.num-one .box1 .row1 .p2{
+    
+    padding: 7px 13px 1px 13px;
+    border-radius: 3px;
+    background-color: rgba(46, 89, 219, 0.904);
+    color: white;
+}
+.num-one .box1 .row1 .p3{
+    color: rgba(0, 0, 0, 0.288);
+    margin-top: 12px;
+}
+.num-one .box1 .row2 p{
+    color: rgba(0, 0, 0, 0.479);
+    margin-bottom: 12px;
+}
+.num-one .box1 .row3{
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+
+}
+.num-one .box1 .row3 .p1{
+    padding: 15px  42px 15px 17px;
+    border-radius: 3px;
+    font-size: 18px;
+    background-color: rgb(41, 87, 223);
+    color: white;
+    letter-spacing: 1px;
+}
+.num-one .box1 .row3 .p2{
+    margin: 5px 67px 0px 0px;
+    color: rgba(0, 0, 0, 0.521);
+    font-size: 19px;
+}
+.num-one .box2 button{
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 34px;
+    border-radius: 7px;
+    background-color: rgba(91, 207, 182, 0.884);
+    font-size: 23px;
+    margin-top: 35px;
+}
+.num-one .box3 button{
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 34px;
+    border-radius: 7px;
+    background-color: rgb(46, 92, 230);
+    font-size: 23px;
+    margin-top: 17px;
+}
+
+/* num-two */
+.num-two{
+    position: relative;
+    top: 70px;
+    
+}
+.num-two .head{
+    display: flex;
+    margin-bottom: 24px;
+    
+}
+
+.num-two .head p{
+    color: rgba(0, 0, 0, 0.623);
+    margin: 3px 0px 0px 16px;
+    font-weight: 700;
+
+}
+
+.num-two .box{
+    border-radius: 4px;
+    border: 1px solid rgba(170, 168, 168, 0.39);
+    background-color: rgba(247, 247, 247, 0.253);
+    padding: 27px 12px;
+    width: 90%;
+    margin-bottom: 30px;
+}
+.num-two .box .row1{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+.num-two .box .row1 .col{
+    border: 2px solid rgba(170, 168, 168, 0.39);
+    background-color: rgba(247, 247, 247, 0.253);
+    border-radius: 5px;
+    margin-top: 2px;
+    padding: 8px 11px;
+    color: rgba(0, 0, 0, 0.445);
+}
+.num-two .box .row1 .col .top{
+    font-size: 12px;
+    margin-bottom: 9px;    
+}
+
+.num-two .box .row1 .col4{
+    background-color: rgb(48, 98, 206);
+    color: white;
+}
+.num-two .box .row2{
+    display: flex;
+    margin-top: 22px;
+}
+.num-two .box .row2 .p1{
+    border-radius: 4px;
+    background-color: rgba(145, 187, 243, 0.274);
+    padding: 12px 22px;
+    color: rgba(0, 0, 0, 0.432);
+    margin: 0px 7px;
+}
+.num-two .box .row2 .p2{
+    border-radius: 4px;
+    background-color: rgb(48, 98, 206);
+    color: rgba(255, 255, 255, 0.842);
+    padding: 12px 26px;
+    padding-right: 38px;
+    margin: 0px 14px;
+    font-size: 17px;
+    position: relative;   
+    width: 40%; 
+}
+
+/* num-three */
+.num-three{
+    position: relative;
+    top: 60px;
+
+}
+.num-three .firstdiv{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.num-three .firstdiv img{
+    width: 14px;
+    height: 9px;
+    margin-right: 20px;
+}
+.num-three .firstdiv h3{
+
+    margin-bottom: 12px;
+    font-size: 27px;
+}
+.num-three .circle{
+    position: relative;
+    left: 100px;
+    margin-bottom: 30px;
+}
+.num-three .rows{
+    display: flex;
+    margin-top: 35px;
+}
+.num-three .rows .uls ul li{
+    margin-right: 190px;
+    
+}
+
+.num-three .rows .uls ul li, .num-three .rows .rightside p{
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.801);
+}
+.num-four{
+    position: relative;
+    top: 60px;
+}
+.num-four .firstdiv{
+    margin-top: 43px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.num-four .firstdiv img{
+    width: 14px;
+    height: 9px;
+    margin-right: 20px;
+}
+.num-four .firstdiv h3{
+    margin-bottom: 12px;
+    font-size: 27px;
+}
+.num-four img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.num-four .rows{
+    padding-bottom: 12px;
+    margin-bottom: 17px;
+    display: flex;
+    position: relative;
+    top: 25px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+}
+.num-four .rows .left .p1{
+    font-weight: 750;
+    font-size: larger;
+    color: rgba(0, 0, 0, 0.63);
+}
+.num-four .rows .left .p2{
+    display: flex;
+    color: rgba(0, 0, 0, 0.356);
+}
+.num-four .rows .left .p2 .first{
+    margin-right: 63px;
+}
+.num-four .rows .right{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.274);
+}
+.num-four .lastrow{
+    padding-bottom: 50px;
+}
+/* num-five */
+.num-five{
+    position: relative;
+    top: 100px;
+}
+.num-five .firstdiv{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.num-five .firstdiv img{
+    width: 14px;
+    height: 9px;
+    margin-right: 20px;
+}
+.num-five .firstdiv h3{
+    margin-bottom: 12px;
+    font-size: 27px;
+}
+.num-five .pz{
+    padding: 22px 0px 56px 0px;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    background-color: rgba(199, 227, 228, 0.144);
+}
+.num-five .pz .p1{
+    padding-left: 21px;
+    font-size: 14px;
+    color: rgb(35, 103, 192);
+}
+.num-five .pz .p2{
+    padding-left: 21px;
+    font-size: 23px;
+    margin-top: 15px;
+    color: black;
+    margin-right: 34px;
+}
+
+.bottompic{
+    position: relative;
+    top: 50px;
+    /* width: 200%; */
+}
+.bottompic .allthree{
+    width: 80%;
+    display: flex;
+}
+.bottompic .allthree .box{
+    margin-right: 34px;
+    width: 100%;
+    /* position: relative; */
+    bottom: 50px;
+    border: 1px solid lightgray;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: rgba(224, 235, 234, 0.486);
+    padding-bottom: 30px;
+
+}
+.bottompic .allthree .box .imgv{
+  width: 430px;
+}
+.bottompic .allthree .row1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin: 20px 33px;
+}
+.bottompic .allthree .row1 p{
+    margin-top: 8px;
+}
+.bottompic .allthree .row1 img{
+    position: relative;
+    left: 20px;
+}
+.bottompic .allthree .row1 .col1{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 7px;
+}
+.bottompic .allthree .p2{
+    margin-left: 33px;
+    color: rgba(0, 0, 0, 0.562);
+}
+.last{
+    width: 100%;
+    height: 100%;
+    margin-top: 90px;
+    position: relative;
+}
+.last img{
+    width: 100%;
+}
+    </style>
+  </head>
+
+
+
+  <body>
+    <div class="container">
+    <nav id="navbar">
+      <div id="logo">
+        <img src="new/Eign Logo.png" alt="its logo" />
+      </div>
+      <ul>
+        <li class="item"><a href="#">Buy</a></li>
+        <li class="item"><a href="#">Sell</a></li>
+        <li class="item"><a href="#">Rent</a></li>
+        <li class="item"><a href="#">Loan</a></li>
+        <li class="item"><a href="#">The Experience</a></li>
+      </ul>
+      <div class="right">
+        <select name="subject" id="subject">
+          <option value="english">English</option>
+          <option value="math">Math</option>
+          <option value="computer">Computer</option>
+          <option value="physics">Physics</option>
+        </select>
+        <button>Login</button>
+      </div>
+    </nav>
+
+    <section id="images">
+      <div class="leftpics">
+        <div><img src="new/top left.jpg" alt="" /></div>
+        <div><img src="new/bottom left.png" alt="" /></div>
+      </div>
+      <div class="midpic">
+        <img src="new/mid.jpg" alt="" />
+      </div>
+      <div class="rightpics">
+        <img src="new/topright.jpg" alt="" />
+        <img src="new/bottom right.png" alt="" />
+      </div>
+    </section>
+  </div>
+<!-- section leftside -->
+
+<section id="both">
+    <section id="leftSide">
+      <div class="num1">
+        <p class="p1">
+          914 Edgemont Avenue Elk River, MN 55330 8548 East Princeton St.
+        </p>
+        <div class="layer1">
+          <img src="icons/Group 1548 (1).png" alt="" />
+          <img src="icons/Group 1549.png" alt="" />
+          <img src="icons/Group 1550.png" alt="" />
+          <img src="icons/Group 1551.png" alt="" />
+        </div>
+        <div class="layer2">
+          <img src="icons/Group 1548 (1).png" alt="" />
+          <img src="icons/Group 1549.png" alt="" />
+          <img src="icons/Group 1550.png" alt="" />
+          <img src="icons/Group 1551.png" alt="" />
+        </div>
+        <h3>Details</h3>
+        <p class="p2">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
+          praesentium optio quo dolores voluptas incidunt ab perferendis fuga
+          quibusdam unde soluta ipsam, voluptates accusantium ipsa, sunt commodi
+          quia enim tenetur inventore odit, similique vero deserunt sequi.
+          Dolores architecto distinctio dolore.
+        </p>
+        <br />
+        <br />
+        <hr />
+        <br />
+        <br />
+      </div>
+      <div class="num2">
+        <h3>Apertment Features</h3>
+        <div class="layer">
+          <div class="layer1">
+            <img src="icons2/1.png" alt="" />
+            <h4>Air Conditioner</h4>
+          </div>
+          <div class="layer1">
+            <img src="icons2/2.png" alt="" />
+            <h4>Close to Transport</h4>
+          </div>
+          <div class="layer1">
+            <img src="icons2/3.png" alt="" />
+            <h4>Electricity</h4>
+          </div>
+        </div>
+        <div class="layer">
+          <div class="layer2">
+            <img src="icons2/4.png" alt="" />
+            <h4>Alarm</h4>
+          </div>
+          <div class="layer2">
+            <img src="icons2/5.png" alt="" />
+            <h4>Intercom</h4>
+          </div>
+          <div class="layer2">
+            <img src="icons2/6.png" alt="" />
+            <h4>In-Ground Pool</h4>
+          </div>
+        </div>
+        <div class="layer">
+          <div class="layer3">
+          <h4>Parking</h4>
+          </div>
+          <div class="layer3">
+            <img src="icons2/8.png" alt="" />
+            <h4>Water Supply</h4>
+          </div>
+          <div class="layer3">
+            <img src="icons2/9.png" alt="" />
+            <h4>Laundry</h4>
+          </div>
+        </div>
+        <div class="layer">
+          <div class="layer4">
+            <img src="icons2/10.png" alt="" />
+            <h4>Fire Place</h4>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <!-- num3 -->
+      <div class="num3">
+        <div class="firstdiv">
+        <h3>Property Feature</h3>
+        <img src="icons2/Group 521.png" alt="">
+      </div>
+        <div class="allpz">
+          <div class="pz2">
+            <p>price/Sq.ft.</p>
+            <p>$725/Sq.ft.</p>
+          </div>
+          <div class="pz2">
+            <p>Baths</p>
+            <p>3 Full, 1 parial</p>
+          </div>
+          <div class="pz2">
+            <p>Community</p>
+          </div>
+          <div class="pz2">
+            <p>Stories</p>
+            <p>2</p>
+          </div>
+          <div class="pz2">
+            <p>Property Type</p>
+            <p>Mulltifamily</p>
+          </div>
+          <div class="pz2">
+            <p>Community</p>
+            <p>Brooklin</p>
+          </div>
+        </div>
+        <br />
+        <br />
+       
+        <hr />
+      </div>
+      <!-- num4 -->
+       <div class="num4">
+        <div class="firstdiv">
+          <h3>Property History</h3>
+          <img src="icons2/Group 521.png" alt="">
+        </div>
+       <div class="boxes">
+        <div class="box1">
+          <div class="item1">
+            <p>Jun 9,2020</p>
+            <h4 class="h4">Listed Active</h4>
+          </div>
+          <div class="item2">
+            <p>$565,630</p>
+          </div>
+        </div>
+        <div class="box2">
+          <div class="item1">
+            <p>Apr 7,2012</p>
+            <h4 class="h4" style="color: rgba(2, 1, 1, 0.301);">Sold</h4>
+          </div>
+          <div class="item2">
+            <p>$340,000</p>
+          </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+       </div>
+       </div>
+       <!-- num5 -->
+       <div class="number5">
+        <div class="firstdiv">
+          <h3>Property Taxes</h3>
+          <img src="icons2/Group 521.png" alt="">
+        </div>
+        <div class="allamounts">
+          <div class="row">
+            <p >Tax Amount</p>
+            <p class="one">:</p>
+            <p class="mn">$55,630</p>
+          </div>
+          <div class="row">
+            <p>Land</p>
+            <p  class="two">:</p>
+            <p>$3,694,000</p>
+          </div>
+          <div class="row">
+            <p >Improvements</p>
+            <p class="three">:</p>
+            <p>$2,148,100</p>
+          </div>
+          <div class="row">
+            <p>Total</p>
+            <p  class="four">:</p>
+            <p>$5,842,100</p>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <hr>
+        </div>
+       <!-- num6 -->
+       <div class="num6">
+        <div class="firstdiv">
+          <h3>Neighbohood</h3>
+          <img src="icons2/Group 521.png" alt="">
+        </div>
+        <h4>Charlotte Hall, MD</h4>
+        <div class="boxes">
+        <div class="slash">|</div>
+        <div class="box">
+          <div class="p1">$399k</div>
+          <p class="p2">Median Price for sale</p>
+        </div>
+        <div class="slash">|</div>
+        <div class="box">
+          <div class="p1">$150</div>
+          <p class="p2">Median Price per sq.ft</p>
+        </div>
+        <div class="slash">|</div>
+        <div class="box">
+          <div class="p1">48</div>
+          <p class="p2">Median Price on Market</p>
+        </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+       </div>
+       <div class="num7">
+        <div class="firstdiv">
+          <h3>Awesome Similer Home</h3>
+          <img src="icons2/Group 521.png" alt="">
+        </div>
+       </div>
+    
+    <!-- bottom pics -->
+    <section class="bottompic">
+      <div class="allthree">
+        <div class="box">
+          <img class="imgv" src="new/Mask Group 1.png" alt="">
+          <div class="row1">
+            <div class="col1">$1,150,000</div>
+            <img src="icons/bed.png" alt="">
+            <p>3 Bed</p>
+            <img src="icons/tub.png" alt="">
+            <p>2 Baths</p>
+          </div>
+          <div class="p2">914 Edgemant Avenue Eik River, MN 55</div>
+        </div>
+
+        <div class="box">
+          <img class="imgv" src="new/Mask Group 2.png" alt="">
+          <div class="row1">
+            <div class="col1">$1,150,000</div>
+            <img src="icons/bed.png" alt="">
+            <p>3 Bed</p>
+            <img src="icons/tub.png" alt="">
+            <p>2 Baths</p>
+          </div>
+          <div class="p2">914 Edgemant Avenue Eik River, MN 55</div>
+        </div>
+
+        <div class="box">
+          <img class="imgv" src="new/Mask Group 3.png" alt="">
+          <div class="row1">
+            <div class="col1">$1,150,000</div>
+            <img src="icons/bed.png" alt="">
+            <p>3 Bed</p>
+            <img src="icons/tub.png" alt="">
+            <p>2 Baths</p>
+          </div>
+          <div class="p2">914 Edgemant Avenue Eik River, MN 55</div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+    <!-- section rightside -->
+     <section id="rightSide">
+      <!-- num-one -->
+      <div class="num-one">
+        <div class="box1">
+          <div class="row1 row">
+            <p class="p1">$1,150.00</p>
+            <p class="p2">For Sale</p>
+            <p class="p3">Listed 2 days ago</p>
+          </div>
+          <div class="row2 row">
+            <p>914 Edgemant Avenue Eik River, MN 55330</p>
+            <P>8548 East Princeton St.</P>
+          </div>
+          <div class="row3 row">
+            <p class="p1">Get pre-qualified</p>
+            <div class="p2">
+              <h4>Est.payment:</h4>
+              <p>$2,147/mo</p>
+            </div>
+          </div>
+        </div>
+        <div class="box2">
+          <button>Send message to seller</button>
+        </div>
+        <div class="box3">
+          <button>Submit an offer</button>
+        </div>
+        <br>
+        <br>
+      </div>
+      <!-- num-two -->
+       <div class="num-two">
+        <div class="head">
+          <img src="icons2/Vector (2).png" alt="">
+          <p>Schedule a Tour</p>
+        </div>
+        <div class="box">
+          <div class="row1">
+            <div class="col">
+              <p class="top">WED</p>
+              <p>12</p>
+            </div>
+            <div class="col">
+              <p class="top">THU</p>
+              <p>13</p>
+            </div>
+            <div class="col">
+              <p class="top">FRI</p>
+              <p>14</p>
+            </div>
+            <div class="col col4">
+              <p class="top">SAT</p>
+              <p>15</p>
+            </div>
+            <div class="col">
+              <p class="top">SUN</p>
+              <p>16</p>
+            </div>
+            <div class="col">
+              <p class="top">MON</p>
+              <p>17</p>
+            </div>
+            <img src="icons2/Vector (3).png" alt="">
+          </div>
+          <div class="row2">
+            <p class="p1">Choose time</p>
+            <p class="p2">Schedule a Tour</p>
+          </div>
+        </div>
+        <br>
+       <hr>
+       </div>
+       <!-- num-three -->
+       <div class="num-three">
+        <div class="firstdiv">
+          <h3>Monthly Mortgage</h3>
+          <img src="icons2/Group 521.png" alt="">
+        </div>
+        <div class="circle">
+          <img src="new/Group 525.png" alt="">
+        </div>
+        <div class="rows">
+          <div class="uls">
+            <ul>
+              <li class="blue">Principal & interest</li>
+              <li class="seegreen">Propert Tex</li>
+              <li class="lightorange">Home Insurance</li>
+              <li class="orange">Hoa</li>
+              <li class="skyblue">Mortgage Insurance</li>
+            </ul>
+          </div>
+          <div class="rightside">
+            <p>$24,630</p>
+            <p>$4,630</p>
+            <p>$730</p>
+            <p>$354</p>
+            <p>$290</p>
+          </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+       </div>
+       <!-- num-four -->
+       <div class="num-four">
+        <div class="firstdiv">
+          <h3>Nearby Schools</h3>
+          <img src="icons2/Group 521.png" alt="">
+        </div>
+       
+       <img src="new/snazzy-image 1.png" alt="">
+       <div class="main">
+       <div class="rows">
+        <div class="left">
+          <p class="p1">Ps 183 Robert L Stevenson</p>
+          <div class="p2">
+            <p class="first">Public</p>
+            <p>Grades Pk-5</p>
+          </div>
+        </div>
+        <div class="right">
+          <p>0.1</p>
+          <p>ml</p>
+        </div>
+       </div>
+      
+
+      <div class="rows ">
+        <div class="left">
+          <p class="p1">Ps 183 Robert L Stevenson</p>
+          <div class="p2">
+            <p class="first">Public</p>
+            <p>Grades Pk-5</p>
+          </div>
+        </div>
+        <div class="right">
+          <p>0.1</p>
+          <p>ml</p>
+        </div>
+       </div>
+      
+
+      <div class="rows lastrow">
+        <div class="left">
+          <p class="p1">Ps 183 Robert L Stevenson</p>
+          <div class="p2">
+            <p class="first">Public</p>
+            <p>Grades Pk-5</p>
+          </div>
+        </div>
+        <div class="right">
+          <p>0.1</p>
+          <p>ml</p>
+        </div>
+       </div>
+      </div>
+  
+      </div>
+      <!-- num-five -->
+       <div class="num-five">
+        <div class="firstdiv">
+          <h3>Surrounding</h3>
+          <img src="icons2/Group 521.png" alt="">
+        </div>
+        <div class="pz">
+          <p class="p1">Noise level</p>
+          <p class="p2">N/A noise Level outside the property building at city</p>
+        </div>
+       </div>
+     </section>
+    </section>
+    <div class="last">
+    <img src="new/Group 1687.jpg" alt="">  
+    </div>  
+  </body>
+</html>
